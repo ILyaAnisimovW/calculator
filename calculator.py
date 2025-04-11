@@ -1,3 +1,4 @@
+# учебный комит типа фикс калькулятора
 def prepare(preparation_example):
     
     preparation_example = preparation_example.split()
