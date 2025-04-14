@@ -37,10 +37,3 @@ class TestCalculator:
     def test_calculate_valid_expression(self, one, action, two, expected):
         result = calculate(one, action, two)
         assert result == expected, f"Ожидаемый результат: {expected}, полученный результат: {result}"
-
-    # Приватный метод для получения параметров
-    def _get_valid_calculations(self):
-        return self.VALID_CALCULATIONS
-
-# Приватный метод для получения параметров можно вынести в отдельный метод,
-# но на Python это не принято, обычно параметры выносятся в поля класса
